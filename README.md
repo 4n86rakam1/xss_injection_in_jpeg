@@ -8,7 +8,7 @@
 ```sh
 sudo apt install imagemagick  # in debian
 
-git clone https://github.com/maya2250/xss_injection_in_jpeg.git
+git clone https://github.com/4n86rakam1/xss_injection_in_jpeg.git
 cd xss_injection_in_jpeg
 python3 exploit.py --payload 'alert(document.domain)' --imagesize 200x200 --output xss.js
 ```
